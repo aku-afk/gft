@@ -10,7 +10,7 @@ php 8 or latest
 ## How To Use
 ### Using PHP
 ```
-php gft.php "link-forms-target" "Token"
+php gft.php "link-forms-target" "Token/parameter"
 ```
 
 Example 1 <br>
@@ -27,7 +27,7 @@ php gft.php "link-forms-target" "kunci"
 
 ### Using Shell Script
 ```
-./gft.sh "link-forms-target" "Token" sleep-time-in-sec
+./gft.sh "link-forms-target" "Token/parameter" sleep-time-in-sec
 ```
 
 Example 1 <br>
