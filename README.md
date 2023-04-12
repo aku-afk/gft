@@ -9,6 +9,8 @@ ketahui token soal/kuis google form tanpa ribet <br>
 optional :
 - niat kaliyan tekad
 - konco ora cepu
+- rencana cadangan nk misal di cepu
+- bisa maido pas interogasi
 
 ## How To Use
 ### Using PHP
