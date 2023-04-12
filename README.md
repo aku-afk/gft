@@ -14,7 +14,7 @@ optional :
 
 ## Tested On
 - Linux Ubuntu WSL
-- Android Termuxz
+- Android Termux
 
 ## How To Use
 ### Using PHP
