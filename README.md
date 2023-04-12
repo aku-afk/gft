@@ -12,6 +12,10 @@ optional :
 - rencana cadangan nk misal di cepu
 - bisa maido pas interogasi
 
+## Tested On
+- Linux Ubuntu WSL
+- Android Termuxz
+
 ## How To Use
 ### Using PHP
 ```
