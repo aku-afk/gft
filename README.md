@@ -3,9 +3,12 @@ ketahui token soal/kuis google form tanpa ribet <br>
 ![image](https://user-images.githubusercontent.com/64795908/231537695-6df2d815-012b-4f7c-b214-6e9bec407dc2.png)
 
 ## Requirement
-```
-php 8 or latest
-```
+- php 8 or latest
+- link google forms
+
+optional :
+- niat kaliyan tekad
+- konco ora cepu
 
 ## How To Use
 ### Using PHP
