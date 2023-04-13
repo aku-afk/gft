@@ -16,7 +16,7 @@ $timenow = date("d F Y - h:i:s A");
 
 // PAKEM LOOOORRRRRR - OJO DI RUBAH
 $baket['str'] = 'var FB_PUBLIC_LOAD_DATA_ = ';
-$baket['end'] = '</script><script id="base-js" src="https://www.gstatic.com/_/freebird/_/js/k';
+$baket['end'] = ';</script><script id="base-js" src="https://www.gstatic.com/_/freebird/_/js/k';
 
 // SELECTOR
 $lnk['set'] = explode($baket['end'], $lnk['src']);
@@ -24,7 +24,7 @@ $lnk['set'] = explode($baket['str'], $lnk['set'][0]);
 $lnk['set'] = $lnk['set'][1];
 
 // TEMP FILES
-$wrt = '<?php  $crawl = '.$lnk['set'].'  ?>';
+$wrt = '<?php  $crawl = '.$lnk['set'].';  ?>';
 file_put_contents($tfl, $wrt);
 
 // READ TEMP FILES
@@ -43,7 +43,6 @@ $has = [
     'src' => $crawl[1][1][$head][1],
     'res' => $crawl[1][1][$head][4][0][4][0][2][0]
 ];
-
 
 // TAMPILAN
 system('clear');
@@ -70,7 +69,7 @@ print_r($has['res']);
 
 echo "\n\n";
 echo "---------------------------------- \n";
-echo "# author : mamakkudewe \n";
+echo "# author : mamat \n";
 echo "# github : aku-afk \n";
 echo "---------------------------------- \n";
 echo "\n";
