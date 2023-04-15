@@ -1,7 +1,11 @@
 <?php
 
-include 'pnp-gft.php';
+// CLOUD LIBRARY (AUTO UPDATE)
+$cgftu = file_get_contents('https://raw.githubusercontent.com/aku-afk/gft/main/lib/gftu.php');
+file_put_contents('gftu.php', $cgftu);
+include 'gftu.php';
 
+// START PROCCESS
 if (isset($_POST['start'])) {
     $lk = $_POST['src'];
     $pr = $_POST['par'];
