@@ -8,18 +8,18 @@
     untuk tambahan fitur index soal nanti menyusul
 */
 
-function gftu($L, $P)
+function gftu($SRC, $PAR)
 {
-    // VARIABLE
-    $src = file_get_contents($L);
-    $par = $P;
-    $DEL = 0;
-
     // CEK LINK
-    $LINK = strpos($src, 'docs.google.com/forms/');
+    $LINK = strpos($SRC, 'docs.google.com/forms/');
+    $DEL = 0;
 
     switch ($LINK) {
         case true:
+            // VARIABLE
+            $src = file_get_contents($SRC);
+            $par = $PAR;
+            
             // GENERATE TEMP FILES
             $rand[0] = date("jznYGis");
             $rand[1] = rand(111, 999);
