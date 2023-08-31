@@ -4,8 +4,6 @@
     Coding by mamat
     codingan ndeso ra pokro saksake pokoke
     wes ngono wae
-
-    untuk tambahan fitur index soal nanti menyusul
 */
 
 function gftu($SRC, $PAR)
