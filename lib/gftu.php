@@ -65,8 +65,8 @@ function gftu($SRC, $PAR)
     // RETURN RESULT
     $has['raw'] = $TMP[0];
     $has['title'] = $TMP[1];
-    $has['params'] = $TMP[2];
-    $has['content'] = $TMP[3];
+    $has['params'] = $TMP[3];
+    $has['content'] = $TMP[2];
 
     // CLEAR TEMP
     if ($DEL == 1) {
