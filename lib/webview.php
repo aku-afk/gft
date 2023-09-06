@@ -75,7 +75,7 @@ if (isset($_POST['start'])) {
     <br><br><br><br>
 
     <pre>
-        <?php print_r($view['raw']); ?>
+        <?php /* print_r($view['raw']); */ ?>
     </pre>
 </body>
 </html>
